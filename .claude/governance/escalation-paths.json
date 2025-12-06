@@ -1,0 +1,42 @@
+{
+  "version": "1.0",
+  "paths": {
+    "level_1": {
+      "name": "Immediate",
+      "from": "Team Member",
+      "to": "Team Lead",
+      "sla_minutes": 15
+    },
+    "level_2": {
+      "name": "Technical",
+      "from": "Team Lead",
+      "to": "Engineering Manager",
+      "sla_minutes": 60
+    },
+    "level_3": {
+      "name": "Executive",
+      "from": "Engineering Manager",
+      "to": "CTO",
+      "sla_minutes": 240
+    },
+    "level_4": {
+      "name": "Strategic",
+      "from": "CTO/CISO",
+      "to": "CEO",
+      "sla_minutes": 480
+    },
+    "level_5": {
+      "name": "Emergency",
+      "from": "Any",
+      "to": ["CEO", "CTO", "CISO"],
+      "sla_minutes": 5,
+      "parallel": true
+    }
+  },
+  "security_direct": {
+    "from": "Any",
+    "to": "CISO",
+    "sla_minutes": 0,
+    "description": "Security issues go directly to CISO"
+  }
+}

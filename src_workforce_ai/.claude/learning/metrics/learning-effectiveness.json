@@ -1,0 +1,9 @@
+{
+  "version": "1.0",
+  "metrics": {
+    "patterns_applied": 0,
+    "mistakes_prevented": 0,
+    "new_learnings": 0
+  },
+  "history": []
+}

@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "edges": [],
+  "relation_types": [
+    "causes",
+    "prevents",
+    "contradicts",
+    "supports",
+    "related_to",
+    "supersedes",
+    "depends_on",
+    "example_of"
+  ]
+}

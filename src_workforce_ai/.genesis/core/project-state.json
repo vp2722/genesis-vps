@@ -1,0 +1,41 @@
+{
+  "project": {
+    "id": null,
+    "name": "New Project",
+    "type": "custom",
+    "domain_config": {},
+    "created_at": null,
+    "updated_at": null,
+    "status": "planning"
+  },
+  "sprint": {
+    "id": null,
+    "number": 0,
+    "start_date": null,
+    "end_date": null,
+    "goals": [],
+    "capacity": 0,
+    "committed": 0,
+    "completed": 0,
+    "status": "planning"
+  },
+  "features": {
+    "active": [],
+    "backlog": [],
+    "completed": [],
+    "archived": []
+  },
+  "agents": {
+    "active": [],
+    "assignments": {}
+  },
+  "metrics": {
+    "velocity": 0,
+    "cycle_time": 0,
+    "bug_rate": 0,
+    "code_coverage": 0,
+    "tech_debt_hours": 0
+  },
+  "risks": [],
+  "decisions": []
+}

@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "agents": {
+    "executive": ["ceo", "cto", "ciso", "cfo", "cpo"],
+    "management": ["product-manager", "technical-program-manager", "engineering-manager", "scrum-master", "release-manager"],
+    "architecture": ["chief-architect", "solutions-architect", "infrastructure-architect", "database-architect", "security-architect", "data-architect"],
+    "development": ["frontend-lead", "backend-lead", "mobile-lead", "fullstack-engineer", "api-designer", "sdk-developer", "platform-engineer"],
+    "quality": ["qa-lead", "sdet", "security-engineer", "penetration-tester", "performance-engineer", "chaos-engineer", "code-reviewer"],
+    "operations": ["devops-engineer", "sre", "platform-ops", "incident-commander", "capacity-planner"],
+    "data": ["data-engineer", "ml-engineer", "data-scientist", "ml-ops-engineer", "analytics-engineer"],
+    "specialized": ["accessibility-specialist", "i18n-specialist", "compliance-officer", "finops-engineer", "ai-ethics-officer", "blockchain-specialist", "ux-psychologist", "dx-engineer"],
+    "documentation": ["documentation-lead", "tech-writer", "api-documentation-specialist"],
+    "domain": ["kernel-specialist", "driver-developer", "payment-specialist", "fraud-detection-specialist", "recommendation-specialist", "workflow-specialist", "erp-domain-expert"]
+  }
+}

@@ -1,0 +1,19 @@
+# GENESIS Code Owners
+
+# Default owners for everything
+* @genesis-team
+
+# Architecture decisions
+/docs/architecture/ @chief-architect @cto
+/docs/decisions/ @chief-architect @cto
+
+# Security
+/.claude/agents/quality/security* @ciso @security-architect
+/docs/compliance/ @compliance-officer @ciso
+
+# Infrastructure
+/infrastructure/ @devops-engineer @infrastructure-architect
+/.github/workflows/ @devops-engineer
+
+# Documentation
+/docs/ @documentation-lead @tech-writer

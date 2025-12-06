@@ -1,0 +1,16 @@
+{
+  "version": "1.0",
+  "quality_gates": {
+    "code_coverage_min": 80,
+    "security_severity_max": "medium",
+    "performance_latency_p99_max_ms": 500
+  },
+  "escalation": {
+    "task_stalled_hours": 4,
+    "repeated_failures_count": 3
+  },
+  "budgets": {
+    "cost_spike_threshold_percent": 20,
+    "error_budget_warning_percent": 25
+  }
+}

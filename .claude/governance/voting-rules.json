@@ -1,0 +1,12 @@
+{
+  "version": "1.0",
+  "voting_rules": {
+    "quorum": 0.6,
+    "approval_threshold": 0.66,
+    "veto_override_threshold": 0.8,
+    "max_voting_duration_hours": 4,
+    "auto_escalate_on_deadlock": true,
+    "weighted_voting": true,
+    "weight_by": "authority_level"
+  }
+}

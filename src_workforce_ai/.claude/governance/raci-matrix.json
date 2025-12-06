@@ -1,0 +1,35 @@
+{
+  "version": "1.0",
+  "decisions": {
+    "architecture_change": {
+      "responsible": ["chief-architect", "solutions-architect"],
+      "accountable": "cto",
+      "consulted": ["security-architect", "infrastructure-architect"],
+      "informed": ["engineering-manager", "product-manager"]
+    },
+    "security_concern": {
+      "responsible": ["security-engineer", "security-architect"],
+      "accountable": "ciso",
+      "consulted": ["cto", "compliance-officer"],
+      "informed": ["ceo", "product-manager"]
+    },
+    "production_deployment": {
+      "responsible": ["devops-engineer", "release-manager"],
+      "accountable": "sre",
+      "consulted": ["qa-lead", "security-engineer"],
+      "informed": ["product-manager", "cto"]
+    },
+    "cost_increase": {
+      "responsible": ["finops-engineer", "infrastructure-architect"],
+      "accountable": "cfo",
+      "consulted": ["cto", "engineering-manager"],
+      "informed": ["ceo"]
+    },
+    "feature_prioritization": {
+      "responsible": ["product-manager"],
+      "accountable": "cpo",
+      "consulted": ["cto", "engineering-manager"],
+      "informed": ["ceo", "leads"]
+    }
+  }
+}
